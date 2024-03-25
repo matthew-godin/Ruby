@@ -21,4 +21,4 @@ end
 #puts(albums)
 #puts(selected_albums)
 
-puts(albums.select {|album| album[2] == "Jazz" and album[3].to_i.between?(1950, 1959)})
+puts(albums.select {|album| album[2] == "Jazz" and album[3].to_i.between?(1950, 1959) })
